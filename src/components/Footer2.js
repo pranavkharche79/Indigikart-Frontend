@@ -33,7 +33,9 @@ const Footer2 = () => {
             <span>&nbsp;&nbsp;</span>
             <a href="https://www.facebook.com/" target="_blank">
               <img
-                src={"/assets/FB.jpg"}
+                src={
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+                }
                 alt="social"
                 className="social"
                 style={{
@@ -46,7 +48,9 @@ const Footer2 = () => {
             <span>&nbsp;&nbsp;</span>
             <a href="https://www.youtube.com/" target="_blank">
               <img
-                src={"/assets/YOUTUBE.jpg"}
+                src={
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/YouTube_social_white_square_%282017%29.svg/1200px-YouTube_social_white_square_%282017%29.svg.png"
+                }
                 alt="social"
                 className="social"
                 style={{
