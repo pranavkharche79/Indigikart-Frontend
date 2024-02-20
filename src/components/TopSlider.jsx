@@ -24,7 +24,7 @@ function TopSlider(){
               <img  className="img" alt="pic1" src= {'/assets/sliderimg1.jpg'}/>
               </div> 
               <div className="wdt">  
-              <img  className="img" alt="pic1" src= {'/assets/spices.png'}/>  
+              <img  className="img" alt="pic1" src= {'/assets/spices.png'}/>
               </div>  
               <div className="wdt">  
               <img  className="img" alt="pic1" src= {'/assets/header12.png'}/>

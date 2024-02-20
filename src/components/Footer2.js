@@ -8,14 +8,17 @@ const Footer2 = () => {
       <div className="footerin1">
         <div className="f1">
           <img
-            src={"/assets/IndiKart.png"}
+            src={"/IndiGIKart.png"}
             style={{ borderRadius: "150px" }}
             alt="indigi"
           />
           <div>
             <a href="https://www.instagram.com/" target="_blank">
               <img
-                src={"/assets/INSTA.jpg"}
+                src={
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png"
+                }
+                // src={require("../pages/INSTA.jpg")}
                 alt="social"
                 className="social"
                 style={{
