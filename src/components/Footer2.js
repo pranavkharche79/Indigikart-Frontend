@@ -8,14 +8,14 @@ const Footer2 = () => {
       <div className="footerin1">
         <div className="f1">
           <img
-            src={"/assets/IndiKart.png"}
+            src={'/assets/IndiKart.png'}
             style={{ borderRadius: "150px" }}
             alt="indigi"
           />
           <div>
             <a href="https://www.instagram.com/" target="_blank">
               <img
-                src={"/assets/INSTA.jpg"}
+                src={'/assets/INSTA.jpg'}
                 alt="social"
                 className="social"
                 style={{
@@ -28,7 +28,7 @@ const Footer2 = () => {
             <span>&nbsp;&nbsp;</span>
             <a href="https://www.facebook.com/" target="_blank">
               <img
-                src={"/assets/FB.jpg"}
+                src={'/assets/FB.jpg'}
                 alt="social"
                 className="social"
                 style={{
@@ -41,7 +41,7 @@ const Footer2 = () => {
             <span>&nbsp;&nbsp;</span>
             <a href="https://www.youtube.com/" target="_blank">
               <img
-                src={"/assets/YOUTUBE.jpg"}
+                src={'/assets/YOUTUBE.jpg'}
                 alt="social"
                 className="social"
                 style={{
