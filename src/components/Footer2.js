@@ -20,7 +20,7 @@ const Footer2 = () => {
                   "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png"
                 }
                 // src={require("../pages/INSTA.jpg")}
-                src={"/assets/INSTA.jpg"}
+                // src={"/assets/INSTA.jpg"}
                 alt="social"
                 className="social"
                 style={{
