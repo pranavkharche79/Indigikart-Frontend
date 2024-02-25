@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./Footer2.css";
 import { Link } from "react-router-dom";
 const Footer2 = () => {
@@ -7,14 +6,16 @@ const Footer2 = () => {
     <div className="footer">
       <div className="footerin1">
         <div className="f1">
-          <img
-            src={"/IndiGIKart.png"}
-            // src={'/assets/IndiKart.png'}
-            style={{ borderRadius: "150px" }}
-            alt="indigi"
-          />
+          <Link to="/" className="stylenone">
+            <img
+              src={"/IndiGIKart.png"}
+              // src={'/assets/IndiKart.png'}
+              style={{ borderRadius: "150px" }}
+              alt="IndiGI"
+            />
+          </Link>
           <div>
-            <a href="https://www.instagram.com/" target="_blank">
+            <a href="https://www.instagram.com/indigikart_/" target="_blank">
               <img
                 src={
                   "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png"
@@ -31,7 +32,10 @@ const Footer2 = () => {
               />
             </a>
             <span>&nbsp;&nbsp;</span>
-            <a href="https://www.facebook.com/" target="_blank">
+            <a
+              href="https://www.facebook.com/profile.php?id=61556595004097"
+              target="_blank"
+            >
               <img
                 src={
                   "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
@@ -46,7 +50,10 @@ const Footer2 = () => {
               />
             </a>
             <span>&nbsp;&nbsp;</span>
-            <a href="https://www.youtube.com/" target="_blank">
+            <a
+              href="https://www.youtube.com/channel/UC_jEx6OIOUiqRjE8amCzpfA"
+              target="_blank"
+            >
               <img
                 src={
                   "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/YouTube_social_white_square_%282017%29.svg/1200px-YouTube_social_white_square_%282017%29.svg.png"
